@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { supabase } from './supabaseClient';
 
 const Auth = () => {
@@ -41,3 +41,4 @@ const Auth = () => {
 };
 
 export default Auth;
+
